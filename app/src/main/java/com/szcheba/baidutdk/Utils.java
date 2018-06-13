@@ -5,4 +5,7 @@ package com.szcheba.baidutdk;
  */
 
 public class Utils {
+    public static void HttpUtils(){
+
+    }
 }
