@@ -22,4 +22,5 @@ dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27+'
     implementation files('libs/jsoup-1.10.2.jar')
+    implementation 'com.github.Single-Shadow:OpenUtils:v1.0'
 }
