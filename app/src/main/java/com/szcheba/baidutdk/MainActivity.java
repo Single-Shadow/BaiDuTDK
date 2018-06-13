@@ -21,6 +21,8 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
+import com.wsingle.openlibrary.MyDebug;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -37,7 +39,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        searchTDK("又出新车吉利缤瑞", this);
+        MyDebug.Show();
+//        searchTDK("又出新车吉利缤瑞", this);
 //        searchTDK("全液晶仪表爱信6AT，车标豪车范的7座SUV仅卖7万起！", this);
     }
 
