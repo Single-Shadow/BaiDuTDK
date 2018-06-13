@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MyDebug.Show("端午");
+        MyDebug.show("端午");
 //        searchTDK("又出新车吉利缤瑞", this);
 //        searchTDK("全液晶仪表爱信6AT，车标豪车范的7座SUV仅卖7万起！", this);
     }
